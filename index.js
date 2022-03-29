@@ -18,6 +18,7 @@ const Room = class {
             if (d.status === false ){
                 return false 
             }else{
+                //console.log(d.name)
                 return d.name;
             }
         })

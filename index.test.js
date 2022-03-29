@@ -16,6 +16,7 @@ const booking1 = new Booking('carlos','carlos@gmail.com',3,7,20)
 //Test de los metodos de las clases
 test('prueba las rooms ocupadas', () => {
     expect(room1.isOccupied(roomsData)).toBeTruthy();
+    // expect(room1.isOccupied(roomsData)).toBeTruthy(); esta es la que falla.
 });
 
 test('prueba de porcentaje ocupado', () => {

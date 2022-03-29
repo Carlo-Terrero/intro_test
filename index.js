@@ -1,8 +1,10 @@
-//const roomsData = require('./roomsData');
+const roomsData = require('./roomsData');
 //import roomData from './roomsData';
 
+roomsData.map((room, i) => {
+    console.log(room.rate)
+})
 
-//console.log(roomsData)
 
 const Room = class {
     constructor(name, rate, discount){

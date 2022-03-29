@@ -1,4 +1,4 @@
-export const bookingData = [{
+[{
     "id": 1,
     "name": "Tabbi",
     "order_date": "22/11/2021",

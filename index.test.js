@@ -6,6 +6,10 @@ const {Room,
     totalOccupancyPercentage
 } = require('./index');
 
+/* const roomsData = require('./roomsData');
+const bookingData = require('./bookingDate'); */
+
+
 const room1 = new Room('Brauny', 9, 15);
 const booking1 = new Booking('carlos','carlos@gmail.com',3,7,20)
 

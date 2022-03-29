@@ -1,3 +1,9 @@
+//const roomsData = require('./roomsData');
+//import roomData from './roomsData';
+
+
+//console.log(roomsData)
+
 const Room = class {
     constructor(name, rate, discount){
         this.name = name;
@@ -44,7 +50,7 @@ const totalOccupancyPercentage = (rooms, startDate, endDate) => {
 
 //devuelve todas las habitaciones de la matriz que no están ocupadas durante toda la duración
 function availableRooms(rooms, startDate, endDate) {
-    
+   
 }
 
 //jest.fn()la función proporcionada por la biblioteca Jest para crear funciones simuladas.

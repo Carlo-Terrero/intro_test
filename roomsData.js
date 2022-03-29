@@ -1,6 +1,6 @@
 export const roomsData = [{
     "id": 1,
-    "first_name": "Fawne",
+    "name": "Fawne",
     "bed_type": "Goldenrod",
     "room_floor": "JP",
     "facilities": "Military/Government/Technical",
@@ -8,7 +8,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 2,
-    "first_name": "Berton",
+    "name": "Berton",
     "bed_type": "Violet",
     "room_floor": "GM",
     "facilities": "n/a",
@@ -16,7 +16,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 3,
-    "first_name": "Lori",
+    "name": "Lori",
     "bed_type": "Yellow",
     "room_floor": "ID",
     "facilities": "n/a",
@@ -24,7 +24,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 4,
-    "first_name": "Horst",
+    "name": "Horst",
     "bed_type": "Orange",
     "room_floor": "CN",
     "facilities": "Oil & Gas Production",
@@ -32,7 +32,7 @@ export const roomsData = [{
     "status": true
   }, {
     "id": 5,
-    "first_name": "Katerine",
+    "name": "Katerine",
     "bed_type": "Teal",
     "room_floor": "LT",
     "facilities": "Real Estate Investment Trusts",
@@ -40,7 +40,7 @@ export const roomsData = [{
     "status": true
   }, {
     "id": 6,
-    "first_name": "Urson",
+    "name": "Urson",
     "bed_type": "Pink",
     "room_floor": "MN",
     "facilities": "n/a",
@@ -48,7 +48,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 7,
-    "first_name": "Langston",
+    "name": "Langston",
     "bed_type": "Fuscia",
     "room_floor": "ID",
     "facilities": "Life Insurance",
@@ -56,7 +56,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 8,
-    "first_name": "Duky",
+    "name": "Duky",
     "bed_type": "Turquoise",
     "room_floor": "US",
     "facilities": "n/a",
@@ -64,7 +64,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 9,
-    "first_name": "Pammi",
+    "name": "Pammi",
     "bed_type": "Teal",
     "room_floor": "MN",
     "facilities": "Biotechnology: Biological Products (No Diagnostic Substances)",
@@ -72,7 +72,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 10,
-    "first_name": "Annabel",
+    "name": "Annabel",
     "bed_type": "Orange",
     "room_floor": "KP",
     "facilities": "Biotechnology: Biological Products (No Diagnostic Substances)",
@@ -80,7 +80,7 @@ export const roomsData = [{
     "status": true
   }, {
     "id": 11,
-    "first_name": "Neale",
+    "name": "Neale",
     "bed_type": "Goldenrod",
     "room_floor": "CN",
     "facilities": "EDP Services",
@@ -88,7 +88,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 12,
-    "first_name": "Bradley",
+    "name": "Bradley",
     "bed_type": "Blue",
     "room_floor": "PH",
     "facilities": "n/a",
@@ -96,7 +96,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 13,
-    "first_name": "Garald",
+    "name": "Garald",
     "bed_type": "Purple",
     "room_floor": "AZ",
     "facilities": "n/a",
@@ -104,7 +104,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 14,
-    "first_name": "Egor",
+    "name": "Egor",
     "bed_type": "Orange",
     "room_floor": "PE",
     "facilities": "n/a",
@@ -112,7 +112,7 @@ export const roomsData = [{
     "status": true
   }, {
     "id": 15,
-    "first_name": "Rusty",
+    "name": "Rusty",
     "bed_type": "Indigo",
     "room_floor": "PE",
     "facilities": "Major Banks",
@@ -120,7 +120,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 16,
-    "first_name": "Myrwyn",
+    "name": "Myrwyn",
     "bed_type": "Violet",
     "room_floor": "PL",
     "facilities": "Medical/Nursing Services",
@@ -128,7 +128,7 @@ export const roomsData = [{
     "status": true
   }, {
     "id": 17,
-    "first_name": "Ardelia",
+    "name": "Ardelia",
     "bed_type": "Teal",
     "room_floor": "UA",
     "facilities": "RETAIL: Building Materials",
@@ -136,7 +136,7 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 18,
-    "first_name": "Shannah",
+    "name": "Shannah",
     "bed_type": "Crimson",
     "room_floor": "CN",
     "facilities": "Telecommunications Equipment",
@@ -144,7 +144,7 @@ export const roomsData = [{
     "status": true
   }, {
     "id": 19,
-    "first_name": "Cecilia",
+    "name": "Cecilia",
     "bed_type": "Turquoise",
     "room_floor": "CN",
     "facilities": "Savings Institutions",
@@ -152,10 +152,12 @@ export const roomsData = [{
     "status": false
   }, {
     "id": 20,
-    "first_name": "Pietro",
+    "name": "Pietro",
     "bed_type": "Red",
     "room_floor": "RU",
     "facilities": "Finance: Consumer Services",
     "rate": "$117.09",
     "status": false
   }]
+
+  

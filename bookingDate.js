@@ -1,6 +1,6 @@
-export const guestData = [{
+export const bookingData = [{
     "id": 1,
-    "first_name": "Tabbi",
+    "name": "Tabbi",
     "order_date": "22/11/2021",
     "check_in": "05/08/2021",
     "check_out": "11/03/2022",
@@ -8,7 +8,7 @@ export const guestData = [{
     "status": 4
   }, {
     "id": 2,
-    "first_name": "Konstance",
+    "name": "Konstance",
     "order_date": "11/12/2021",
     "check_in": "11/05/2021",
     "check_out": "13/05/2021",
@@ -16,7 +16,7 @@ export const guestData = [{
     "status": 4
   }, {
     "id": 3,
-    "first_name": "Putnem",
+    "name": "Putnem",
     "order_date": "10/08/2021",
     "check_in": "23/03/2021",
     "check_out": "25/06/2021",
@@ -24,7 +24,7 @@ export const guestData = [{
     "status": 2
   }, {
     "id": 4,
-    "first_name": "Donavon",
+    "name": "Donavon",
     "order_date": "13/07/2021",
     "check_in": "11/11/2021",
     "check_out": "29/01/2022",
@@ -32,7 +32,7 @@ export const guestData = [{
     "status": 2
   }, {
     "id": 5,
-    "first_name": "Aristotle",
+    "name": "Aristotle",
     "order_date": "16/08/2021",
     "check_in": "11/02/2022",
     "check_out": "10/12/2021",
@@ -40,7 +40,7 @@ export const guestData = [{
     "status": 4
   }, {
     "id": 6,
-    "first_name": "Derry",
+    "name": "Derry",
     "order_date": "08/09/2021",
     "check_in": "23/02/2022",
     "check_out": "06/02/2022",
@@ -48,7 +48,7 @@ export const guestData = [{
     "status": 4
   }, {
     "id": 7,
-    "first_name": "Dorella",
+    "name": "Dorella",
     "order_date": "27/05/2021",
     "check_in": "25/10/2021",
     "check_out": "08/01/2021",
@@ -56,7 +56,7 @@ export const guestData = [{
     "status": 3
   }, {
     "id": 8,
-    "first_name": "Carilyn",
+    "name": "Carilyn",
     "order_date": "30/09/2021",
     "check_in": "14/08/2021",
     "check_out": "04/09/2021",
@@ -64,7 +64,7 @@ export const guestData = [{
     "status": 3
   }, {
     "id": 9,
-    "first_name": "Adela",
+    "name": "Adela",
     "order_date": "22/01/2021",
     "check_in": "04/10/2021",
     "check_out": "17/08/2021",
@@ -72,7 +72,7 @@ export const guestData = [{
     "status": 1
   }, {
     "id": 10,
-    "first_name": "Joanie",
+    "name": "Joanie",
     "order_date": "26/02/2021",
     "check_in": "16/07/2021",
     "check_out": "05/07/2021",
@@ -80,7 +80,7 @@ export const guestData = [{
     "status": 1
   }, {
     "id": 11,
-    "first_name": "Gregory",
+    "name": "Gregory",
     "order_date": "02/08/2021",
     "check_in": "05/01/2021",
     "check_out": "04/05/2021",
@@ -88,7 +88,7 @@ export const guestData = [{
     "status": 3
   }, {
     "id": 12,
-    "first_name": "Tedman",
+    "name": "Tedman",
     "order_date": "06/02/2021",
     "check_in": "14/11/2021",
     "check_out": "24/07/2021",
@@ -96,7 +96,7 @@ export const guestData = [{
     "status": 4
   }, {
     "id": 13,
-    "first_name": "Etan",
+    "name": "Etan",
     "order_date": "31/08/2021",
     "check_in": "04/11/2021",
     "check_out": "01/09/2021",
@@ -104,7 +104,7 @@ export const guestData = [{
     "status": 1
   }, {
     "id": 14,
-    "first_name": "Eleen",
+    "name": "Eleen",
     "order_date": "31/10/2021",
     "check_in": "28/11/2021",
     "check_out": "13/01/2021",
@@ -112,7 +112,7 @@ export const guestData = [{
     "status": 3
   }, {
     "id": 15,
-    "first_name": "Dee dee",
+    "name": "Dee dee",
     "order_date": "26/08/2021",
     "check_in": "27/03/2021",
     "check_out": "15/08/2021",
@@ -120,7 +120,7 @@ export const guestData = [{
     "status": 4
   }, {
     "id": 16,
-    "first_name": "Anderea",
+    "name": "Anderea",
     "order_date": "24/02/2022",
     "check_in": "11/02/2021",
     "check_out": "10/12/2021",
@@ -128,7 +128,7 @@ export const guestData = [{
     "status": 1
   }, {
     "id": 17,
-    "first_name": "Ginny",
+    "name": "Ginny",
     "order_date": "12/10/2021",
     "check_in": "06/02/2021",
     "check_out": "06/04/2021",
@@ -136,7 +136,7 @@ export const guestData = [{
     "status": 4
   }, {
     "id": 18,
-    "first_name": "Lela",
+    "name": "Lela",
     "order_date": "13/07/2021",
     "check_in": "20/02/2022",
     "check_out": "01/01/2022",
@@ -144,7 +144,7 @@ export const guestData = [{
     "status": 3
   }, {
     "id": 19,
-    "first_name": "Tate",
+    "name": "Tate",
     "order_date": "05/10/2021",
     "check_in": "02/04/2021",
     "check_out": "14/03/2022",
@@ -152,7 +152,7 @@ export const guestData = [{
     "status": 2
   }, {
     "id": 20,
-    "first_name": "Koressa",
+    "name": "Koressa",
     "order_date": "20/10/2021",
     "check_in": "23/01/2022",
     "check_out": "25/08/2021",

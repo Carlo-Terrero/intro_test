@@ -6,16 +6,16 @@ const {Room,
     totalOccupancyPercentage
 } = require('./index');
 
-/* const roomsData = require('./roomsData');
-const bookingData = require('./bookingDate'); */
+const roomsData = require('./roomsData');
+const bookingData = require('./bookingDate'); 
 
 
 const room1 = new Room('Brauny', 9, 15);
 const booking1 = new Booking('carlos','carlos@gmail.com',3,7,20)
 
 //Test de los metodos de las clases
-test('prueba de room ocupadas', () => {
-    expect(room1.isOccupied('si'));
+test('prueba las rooms ocupadas', () => {
+    expect(room1.isOccupied(roomsData)).toBeTruthy();
 });
 
 test('prueba de porcentaje ocupado', () => {
@@ -30,7 +30,7 @@ test('prueba del get Fee', () => {
 
 //Test de las funciones 
 test('suma los elementos', () => {
-    expect(suma(1,2)).toBe(3);    
+    expect(suma(1,2)).toBe(5);    
 });
 
 test('porcentaje de ocupación total', () => {

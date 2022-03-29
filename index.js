@@ -1,9 +1,8 @@
 const roomsData = require('./roomsData');
-//import roomData from './roomsData';
 
-roomsData.map((room, i) => {
+/* roomsData.map((room, i) => {
     console.log(room.rate)
-})
+}) */
 
 
 const Room = class {
@@ -15,11 +14,14 @@ const Room = class {
 
     //devuelve falso si no está ocupado, devuelve el invitado si está ocupado
     isOccupied(date) {
-        if (date === false ){
-            return false 
-        }else{
-            return this.name;
-        }
+        date.map((d) => {
+            if (d.status === false ){
+                return false 
+            }else{
+                return d.name;
+            }
+        })
+        
     }
 
     //devuelve el porcentaje de días con ocupación dentro del rango de fechas proporcionadas (inclusive)

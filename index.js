@@ -1,4 +1,4 @@
-const roomsData = require('./roomsData');
+//const roomsData = require('./roomsData');
 
 /* roomsData.map((room, i) => {
     console.log(room.rate)
@@ -55,7 +55,7 @@ const totalOccupancyPercentage = (rooms, startDate, endDate) => {
 
 //devuelve todas las habitaciones de la matriz que no están ocupadas durante toda la duración
 function availableRooms(rooms, startDate, endDate) {
-   
+   //return rooms;
 }
 
 //jest.fn()la función proporcionada por la biblioteca Jest para crear funciones simuladas.

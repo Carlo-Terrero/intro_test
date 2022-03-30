@@ -1,7 +1,6 @@
 {
   "name": "introduccion-a-testing",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -10,5 +9,14 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^27.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlo-Terrero/intro_test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Carlo-Terrero/intro_test/issues"
+  },
+  "homepage": "https://github.com/Carlo-Terrero/intro_test#readme",
+  "description": ""
 }
